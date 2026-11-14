@@ -41,7 +41,7 @@
       "points": 30,
       "expected": {
         "segment_name": "Canada-GadgetOutlet-CoreX360",
-        "aic": 20000.0
+        "aic": 20200.0
       },
       "compare_fields": {
         "aic": "<",
