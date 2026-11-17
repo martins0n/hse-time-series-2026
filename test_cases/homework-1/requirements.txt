@@ -1,0 +1,5 @@
+# etna на PyPI теперь называется ts-etna (имя etna заблокировано). Python 3.10-3.12
+ts-etna==3.0.0
+statsforecast==2.1.1
+# pyarrow>=26 требует numpy 2, а ts-etna 3.0 ставит numpy<2
+pyarrow==25.0.1
