@@ -4,11 +4,11 @@
       "name": "Basic EDA",
       "points": 15,
       "expected": {
-          "n_segments": 88,
-          "freq": "D",
-          "min_timestamp": "2010-01-01",
-          "max_timestamp": "2015-12-31",
-          "mean_series_length": 2191.0
+        "n_segments": 88,
+        "freq": "D",
+        "min_timestamp": "2010-01-01",
+        "max_timestamp": "2015-12-31",
+        "mean_series_lenght": 2191
       }
     },
     {
@@ -40,20 +40,20 @@
       "name": "Backtest Custom ETNA",
       "points": 15,
       "expected": {
-        "custom_backtest_smape": 26.926958777443442
+        "custom_etna_backtest_smape": 26.926958777443442
       },
       "compare_fields": {
-        "custom_backtest_smape": "<"
+        "custom_etna_backtest_smape": "<"
       }
     },
     {
       "name": "Backtest Custom SF",
       "points": 15,
       "expected": {
-        "custom_backtest_smape": 0.12353417988836385
+        "custom_statsforecast_backtest_smape": 0.12353417988836385
       },
       "compare_fields": {
-        "custom_backtest_smape": "<"
+        "custom_statsforecast_backtest_smape": "<"
       }
     },
     {
